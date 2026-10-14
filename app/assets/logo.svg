@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e1a29"/>
+      <stop offset="100%" stop-color="#050b12"/>
+    </linearGradient>
+    <linearGradient id="cyanGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00e5ff"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Shield -->
+  <polygon points="256,32 448,96 448,272 256,470 64,272 64,96"
+           fill="url(#shieldGrad)" stroke="#00e5ff" stroke-width="8" stroke-linejoin="round" />
+
+  <!-- Inner Shield Accent -->
+  <polygon points="256,64 422,118 422,258 256,432 90,258 90,118"
+           fill="#060c14" stroke="#1e3046" stroke-width="4" stroke-linejoin="round" />
+
+  <!-- Radar Rings -->
+  <circle cx="256" cy="230" r="110" fill="none" stroke="#00e5ff" stroke-width="2.5" stroke-opacity="0.35" stroke-dasharray="6,6" />
+  <circle cx="256" cy="230" r="65" fill="none" stroke="#7c3aed" stroke-width="2.5" stroke-opacity="0.5" />
+
+  <!-- Reticle Axis -->
+  <line x1="126" y1="230" x2="210" y2="230" stroke="#00e5ff" stroke-width="4" stroke-linecap="round" />
+  <line x1="302" y1="230" x2="386" y2="230" stroke="#00e5ff" stroke-width="4" stroke-linecap="round" />
+  <line x1="256" y1="100" x2="256" y2="184" stroke="#00e5ff" stroke-width="4" stroke-linecap="round" />
+  <line x1="256" y1="276" x2="256" y2="360" stroke="#00e5ff" stroke-width="4" stroke-linecap="round" />
+
+  <!-- Center Core Diamond -->
+  <polygon points="256,196 290,230 256,264 222,230" fill="#00e5ff" stroke="#ffffff" stroke-width="2" />
+
+  <!-- Corner Tech Brackets -->
+  <path d="M 170,165 L 145,165 L 145,190" fill="none" stroke="#00e5ff" stroke-width="4" stroke-linecap="round" />
+  <path d="M 342,165 L 367,165 L 367,190" fill="none" stroke="#00e5ff" stroke-width="4" stroke-linecap="round" />
+  <path d="M 170,295 L 145,295 L 145,270" fill="none" stroke="#7c3aed" stroke-width="4" stroke-linecap="round" />
+  <path d="M 342,295 L 367,295 L 367,270" fill="none" stroke="#7c3aed" stroke-width="4" stroke-linecap="round" />
+</svg>
+

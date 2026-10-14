@@ -1,0 +1,24 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+.ruff_cache/
+.qodo/
+.venv/
+venv/
+
+# Local application data and logs
+*.db
+*.sqlite
+*.sqlite3
+*.log
+security.log.txt
+
+# Generated reports and packaged builds
+*.pdf
+build/
+dist/
+
+# Local secrets
+.env
+.env.*
+!.env.example
